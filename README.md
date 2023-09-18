@@ -41,7 +41,7 @@ $id (string): O CPF ou nome do usuário para o qual deseja recuperar detalhes.<b
 200 OK: Retorna os detalhes do usuário.
 404 Not Found: Retorna um erro se o usuário não for encontrado.
 <br>
-<h3>update</h3>(Request $request, string $id)<br>
+<h3>update(Request $request, string $id)</h3><br>
 <b>Descrição:</b> Este método permite atualizar os dados de um usuário, incluindo nome, email e CPF.<br>
 <b>Método HTTP:</b> PUT<br>
 <b>Endpoint:</b> /user/{id}<br>
