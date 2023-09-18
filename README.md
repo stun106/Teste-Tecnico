@@ -3,13 +3,13 @@
 <h1>Documentation</h1>
 
 <h2>/profile</h2>
-<b>store(Request $request)</b></br>
+<h3>store(Request $request)</h3>h3></br>
 <b>Descrição:</b> Este método é responsável por criar um novo usuário e seus endereços associados no sistema.</br>
 <b>Método HTTP:</b> POST</br>
 <b>Endpoint:</b> /register</br>
 <b>Parâmetros:</b> $request (Request): O objeto de requisição que contém os dados do usuário a ser registrado, incluindo nome, email, CPF e endereços.
 <br>
-<b>show(string $id)</b></br>
+<h3>show(string $id)</h3></br>
 <b>Descrição:</b> Este método retorna os endereços associados a um usuário específico.</br>
 <b>Método HTTP:</b> GET</br>
 <b>Endpoint</b> /register/{id}</br>
@@ -18,7 +18,7 @@
 200 OK: Retorna os endereços associados ao usuário.
 404 Not Found: Retorna um erro se o usuário não for encontrado.
 <br>
-<b>destroy(string $id)<b><br>
+<h3>destroy(string $id)</h3><br>
 <b>Descrição:</b> Este método exclui todos os endereços associados do sistema.</br>
 <b>Método HTTP:</b> DELETE</br>
 <b>Endpoint:</b> /register/{id}
