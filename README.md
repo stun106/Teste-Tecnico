@@ -45,9 +45,9 @@ $id (string): O CPF ou nome do usuário para o qual deseja recuperar detalhes.<b
 <b>Descrição:</b> Este método permite atualizar os dados de um usuário, incluindo nome, email e CPF.<br>
 <b>Método HTTP:</b> PUT<br>
 <b>Endpoint:</b> /user/{id}<br>
-<b>Parâmetros:</b<br>
+<b>Parâmetros:</b><br>
 $request (Request): O objeto de requisição que contém os novos dados do usuário.
-$id (string): O ID do usuário cujos dados estão sendo atualizados.
+$id (string): O ID do usuário cujos dados estão sendo atualizados.<br>
 <h3>destroy(string $id)</h3><br>
 <b>Descrição:</b> Este método exclui o endereço de um usuário com base em seu ID.<br>
 <b>Método HTTP:</b> DELETE<br>
